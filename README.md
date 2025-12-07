@@ -1,6 +1,6 @@
 # Implementation and Reproducibility
 
-**Project goal:** Predict the damage level of buildings after the 2015 Gorkha (Nepal) earthquake. The target is the damage grade per building (multiclass classification). This repository contains data files, trained models, model outputs (submission files), and an R notebook implementing the end-to-end pipeline.
+**Project goal:** Predict the damage level of buildings after the 2015 Gorkha (Nepal) earthquake : https://www.drivendata.org/competitions/57/nepal-earthquake/page/136/. The target is the damage grade per building (multiclass classification). This repository contains data files, trained models, model outputs (submission files), and an R notebook implementing the end-to-end pipeline.
 
 **Notebook (reproducible workflow)**
 - `Richter-s-predictor-group-15.ipynb`: R notebook (runs with an R kernel) that contains the full data loading, exploratory data analysis (EDA), preprocessing, model training, evaluation, and prediction steps. Run this notebook to reproduce results and regenerate models/submissions.
@@ -93,4 +93,5 @@ install.packages(c("tidyverse","data.table","randomForest","rpart","e1071","care
 **Next steps / suggestions**
 - Run the notebook end-to-end to re-generate models and submissions and validate scores locally.
 - Consider ensembling multiple model predictions (stacking/voting) to improve leaderboard performance.
+
 
